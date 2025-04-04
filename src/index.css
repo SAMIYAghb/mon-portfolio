@@ -1,0 +1,56 @@
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1e1e1e, #2a2a72);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+main{
+  width: 80%;
+  color: white;
+  border-radius: 1rem;
+  margin: 0 auto;
+  align-items: center;
+  padding: 2rem;
+  margin: 4rem auto;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.9);
+}
+
+  
+
+
+/* .blog {
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+}
+
+.blog h2 {
+  text-align: center;
+  margin-bottom: 30px;
+} */
+
+.contact {
+  padding: 50px 20px;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.project-card {
+ 
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+
+

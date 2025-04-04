@@ -1,0 +1,115 @@
+.contact {
+  padding:10px 20px 20px 20px;
+  /* background-color: #f8f8f8; */
+  text-align: center;
+  border-radius: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  flex: 1 1 300px;
+  padding: 30px;
+  /* background-color: white; */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  text-align: left;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+.contact-info i {
+  margin-right: 15px;
+  font-size: 1.5em;
+  color: #ff6b00;
+}
+
+.contact form {
+  flex: 2 1 400px;
+  padding: 30px;
+  /* background-color: #fff; */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: flex;
+  margin: 8px;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #ff6b00;
+  outline: none;
+  box-shadow: 0 0 5px hsla(211, 100%, 50%, 0.5);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #aaa; /* Style pour le texte de remplacement */
+}
+
+
+.form-group textarea {
+  height: 150px;
+}
+
+.contact button {
+  background-color: #ff6b00;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #ff8c42;
+}
+
+/* Styles pour les écrans plus petits */
+@media screen and (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,32 @@
+.banner {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    color: yellow;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    margin: 2rem auto;
+  }
+  
+  @keyframes scrollText {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  .banner-content {
+    display: flex;
+    padding-left: 100%;
+    gap: 20px; 
+    white-space: nowrap;
+    animation: scrollText 15s linear infinite;
+  }
+
+  .banner-content img {
+    height: 40px; /* Ajustez la taille des logos selon vos besoins */
+  }

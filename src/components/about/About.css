@@ -1,0 +1,70 @@
+/* c */
+.about {
+  padding: 1rem;
+}
+
+.about h2{
+  font-size: 2rem;
+}
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem; /* Ajoute un espace entre les colonnes */
+  align-items: center;
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.about-content p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.contact-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ff5733;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  color: #ff8c42;
+}
+
+/* Responsive pour tablettes et mobiles */
+@media screen and (max-width: 1024px) {
+  .about {
+    padding: 80px 30px; /* Réduit l’espace */
+  }
+
+  .about-content {
+    grid-template-columns: 1fr; /* Passe en une seule colonne */
+    text-align: center;
+  }
+
+  .profile-img {
+    margin: 0 auto; /* Centre l’image */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 60px 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    padding: 40px 15px;
+  }
+
+  .profile-img {
+    width: 90%; /* Réduit la taille pour petits écrans */
+  }
+}
